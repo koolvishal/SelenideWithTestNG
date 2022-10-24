@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="testng.metrics.report.name" value="regression.html"/>
+  <parameter name="testng.metrics.report.appendTimestamp" value="True"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.tests.amazonTest">
+        <methods>
+          <include name="testProduct"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.tests.amazonTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
