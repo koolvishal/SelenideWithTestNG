@@ -11,7 +11,10 @@ src/test/java
 There are two types of HTML reports are generating after execution - 
 1. Allure Report
 	Please follow given link to install Allure on machine - https://docs.qameta.io/allure-report/
-	Once you install, run the test & provide this command : allure serve allure-results
+	Once you install, run the test & provide this command on command prompt :
+	 a. Go to path C:\Users\vishalku\eclipse-AllProjects\ProjectSelenide on command prompt
+	 b. Give command - allure serve allure-results
+
 2. TestNG Metrics Report
 	It generates report as per timestamp
     eg:test-output->regression_25_Oct_22_02_46_41
